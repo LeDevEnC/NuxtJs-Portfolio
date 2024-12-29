@@ -22,14 +22,14 @@
         <div class="flex space-x-8">
           <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">
             <img 
-              src="../assets/images/nuxt-logo.png" 
+              src="/img/nuxt-logo.png" 
               alt="Nuxt.js" 
               class="w-24 h-auto transform transition-transform duration-300 hover:scale-110 rounded-lg"
             />
           </a>
           <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">
             <img 
-              src="../assets/images/tailwind-logo.jpg" 
+              src="/img/tailwind-logo.jpg" 
               alt="Tailwind CSS" 
               class="w-24 h-auto transform transition-transform duration-300 hover:scale-110 rounded-lg"
             />

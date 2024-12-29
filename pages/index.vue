@@ -3,7 +3,7 @@
       <div class="flex items-center max-w-7xl px-8 space-x-32 animate__animated animate__fadeIn animate__delay-0.5s">
         <!-- Photo à gauche avec bords arrondis et format portrait ajusté -->
         <div class="w-72 h-96 rounded-lg overflow-hidden border-4 border-gray-500 shadow-lg transform transition duration-500 hover:scale-105">
-          <img src="../assets/images/pdp.jpg" alt="Heulan Malki" class="w-full h-full object-cover" />
+          <img src="/img/pdp.jpg" alt="Heulan Malki" class="w-full h-full object-cover" />
         </div>
     
         <!-- Texte à droite avec plus d'espace et animations -->
