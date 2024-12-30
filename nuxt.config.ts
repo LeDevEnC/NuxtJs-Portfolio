@@ -1,14 +1,25 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
-  css: ['~/assets/css/main.css',
-    '@/assets/styles/global.css'
-  ],
+  css: ['~/assets/css/main.css'],  // Assure-toi que le fichier CSS est bien référencé ici
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
-    },
+    }
   },
-})
+
+  modules: [
+    '@nuxtjs/tailwindcss',  
+  ],
+
+  tailwindcss: {
+    cssPath: '~/assets/css/main.css', 
+    configPath: 'tailwind.config.js',  
+    exposeConfig: {
+      level: 2  
+    },
+    viewer: true,  
+  },
+
+  compatibilityDate: '2024-12-30',
+});

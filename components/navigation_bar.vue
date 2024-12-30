@@ -37,6 +37,15 @@
               À propos
             </NuxtLink>
           </li>
+          <li>
+            <NuxtLink
+              to="/contact"
+              class="text-xl hover:text-gray-400 transition-colors duration-200 transform hover:scale-105 font-medium"
+              active-class="text-blue-500"
+            >
+              Contact
+            </NuxtLink>
+          </li>
         </ul>
       </div>
     </nav>
